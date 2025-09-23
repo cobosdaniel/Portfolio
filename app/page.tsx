@@ -8,7 +8,7 @@ export default function Home() {
         {/* Hero */}
         <section className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
           <Image
-            src="/avatar.jpg" // put a 160x160 image in /public/avatar.png
+            src="/avatar.jpg"
             alt="Daniel Cobos"
             width={80}
             height={80}
@@ -20,11 +20,13 @@ export default function Home() {
               Daniel Cobos
             </h1>
             <p className="text-sm sm:text-base text-black/70 dark:text-white/70 mt-1">
-              Software Engineer — full-stack, mobile, and cloud. I like shipping clean, measurable features.
+              Software Engineer — Full-Stack, Mobile, and Cloud.
+              <br /><br />
+              I am very passionate about anime, gaming, streaming & content creation. When working on my personal projects, I like to incorporate my other passions with my coding skills.
             </p>
             <div className="mt-3 flex flex-wrap gap-3">
               <Link
-                href="mailto:you@example.com"
+                href="mailto:cobos.r.daniel@gmail.com"
                 className="inline-flex h-10 items-center rounded-xl border px-4 text-sm hover:bg-black/5 dark:hover:bg-white/10"
               >
                 Contact
@@ -37,7 +39,7 @@ export default function Home() {
                 GitHub
               </Link>
               <Link
-                href="/resume.pdf" // drop your PDF into /public/resume.pdf
+                href="/Daniel Cobos Resume.pdf"
                 className="inline-flex h-10 items-center rounded-xl border px-4 text-sm hover:bg-black/5 dark:hover:bg-white/10"
                 target="_blank"
               >
@@ -57,23 +59,10 @@ export default function Home() {
                 Flask + MySQL bookstore with inventory, carts, and checkout.
               </p>
               <div className="mt-3 flex gap-3 text-sm">
-                <Link href="https://github.com/youruser/big-johns-books" target="_blank" className="underline">
+                {/* <Link href="https://github.com/youruser/big-johns-books" target="_blank" className="underline">
                   Code
-                </Link>
-                <span className="text-black/50 dark:text-white/50">Python · SQL</span>
-              </div>
-            </article>
-
-            <article className="rounded-2xl border p-4 hover:bg-black/5 dark:hover:bg-white/5 transition">
-              <h3 className="font-medium">RN Audio Rater</h3>
-              <p className="text-sm text-black/70 dark:text-white/70 mt-1">
-                React Native app that saves track ratings via AsyncStorage.
-              </p>
-              <div className="mt-3 flex gap-3 text-sm">
-                <Link href="https://github.com/youruser/rn-audio-rater" target="_blank" className="underline">
-                  Code
-                </Link>
-                <span className="text-black/50 dark:text-white/50">React Native</span>
+                </Link> */}
+                <span className="text-black/50 dark:text-white/50">Python · SQL · Cloud Infrastructure (Digital Ocean)</span>
               </div>
             </article>
           </div>
