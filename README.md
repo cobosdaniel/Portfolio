@@ -1,35 +1,45 @@
-🧑‍💻 Daniel Cobos — Portfolio
+# Daniel Cobos — Portfolio
 
 This is my personal portfolio website, built with Next.js
  and hosted on Vercel
 .
 It showcases my software engineering work across full-stack, mobile, and cloud development.
 
-🚀 Getting Started (Development)
+## Getting Started (Development)
 
-To run the project locally:
+### To run the project locally:
 
+```
 npm install
+
 npm run dev
+
 # or
-yarn dev
+
+yarn dev 
+
 # or
+
 pnpm dev
+
 # or
+
 bun dev
+
+```
 
 
 Once started, visit http://localhost:3000
  to view the site.
 
 The main landing page is located in:
-
+```
 app/page.tsx
-
+```
 
 You can freely modify this file to update sections such as the hero banner, project listings, and footer.
 
-Tech Stack
+## Tech Stack
 
 Framework: Next.js 15
 
@@ -41,24 +51,26 @@ Deployment: Vercel
 
 TypeScript for static typing and maintainability
 
-About the Site
 
+## About the Site
 This portfolio serves as a hub for my professional and personal projects, including:
 
-Big John’s Books — A full-stack bookstore web app using Flask + MySQL with inventory, carts, and checkout.
-
+### Big John’s Books
+- A full-stack bookstore web app using Flask + MySQL with inventory, carts, and checkout.
+<br>
 
 The site also features quick links to my:
 
-Email
+- Email
 
-LinkedIn
+- LinkedIn
 
-GitHub
+- GitHub
 
-Resume (PDF)
+- Resume (PDF)
 
-🛠️ Project Structure
+## Project Structure
+```
 app/
  ├─ page.tsx        # Main landing page
  ├─ globals.css     # Global styles
@@ -67,8 +79,8 @@ public/
  ├─ avatar.jpg      # Profile image
  ├─ Daniel Cobos Resume.pdf
  └─ icons/          # Any custom assets
-
-Deployment
+```
+## Deployment
 
 This portfolio is automatically deployed through Vercel.
 Every push to the main branch triggers a new deployment build.
