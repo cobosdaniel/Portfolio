@@ -10,8 +10,8 @@ export default function Home() {
           <Image
             src="/avatar.jpg"
             alt="Daniel Cobos"
-            width={80}
-            height={80}
+            width={200}
+            height={200}
             className="rounded-full ring-1 ring-black/10 dark:ring-white/10"
             priority
           />
@@ -19,7 +19,7 @@ export default function Home() {
             <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight">
               Daniel Cobos
             </h1>
-            <p className="text-sm sm:text-base text-black/70 dark:text-white/70 mt-1">
+            <p className="text-sm sm:text-base text-black/100 dark:text-white mt-1">
               Software Engineer — Full-Stack, Mobile, and Cloud.
               <br /><br />
               I am very passionate about anime, gaming, streaming & content creation. When working on my personal projects, I like to incorporate my other passions with my coding skills.
@@ -27,23 +27,30 @@ export default function Home() {
             <div className="mt-3 flex flex-wrap gap-3">
               <Link
                 href="mailto:cobos.r.daniel@gmail.com"
-                className="inline-flex h-10 items-center rounded-xl border px-4 text-sm hover:bg-black/5 dark:hover:bg-white/10"
+                className="inline-flex h-10 items-center rounded-xl border px-4 text-lg hover:bg-black/5 dark:hover:bg-white/10"
               >
                 Contact
               </Link>
               <Link
                 href="https://github.com/cobosdaniel"
-                className="inline-flex h-10 items-center rounded-xl border px-4 text-sm hover:bg-black/5 dark:hover:bg-white/10"
+                className="inline-flex h-10 items-center rounded-xl border px-4 text-lg hover:bg-black/5 dark:hover:bg-white/10"
                 target="_blank"
               >
                 GitHub
               </Link>
               <Link
                 href="/Daniel Cobos Resume.pdf"
-                className="inline-flex h-10 items-center rounded-xl border px-4 text-sm hover:bg-black/5 dark:hover:bg-white/10"
+                className="inline-flex h-10 items-center rounded-xl border px-4 text-lg hover:bg-black/5 dark:hover:bg-white/10"
                 target="_blank"
               >
                 Resume
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/daniel-cobos-7164a9286/"
+                className="inline-flex h-10 items-center rounded-xl border px-4 text-lg hover:bg-black/5 dark:hover:bg-white/10"
+                target="_blank"
+              >
+                Linkedin
               </Link>
             </div>
           </div>
